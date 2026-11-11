@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="accueil">
+        <h1>Anime World 🌙</h1>
+        <p>Bienvenue dans mon univers d'animés !</p>
+    </header>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#animes">Animés</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="animes">
+
+        <h2>Mes animés préférés</h2>
+
+        <input
+            type="text"
+            id="recherche"
+            placeholder="Rechercher un anime..."
+        >
+
+        <div class="anime">
+            <h3>Jujutsu Kaisen</h3>
+            <img src="https://placehold.co/300x400?text=Jujutsu+Kaisen" alt="Jujutsu Kaisen">
+            <p>Un monde où les exorcistes combattent des fléaux.</p>
+            <button onclick="afficherInfo('Jujutsu Kaisen')">
+                En savoir plus
+            </button>
+        </div>
+
+        <div class="anime">
+            <h3>Black Clover</h3>
+            <img src="https://placehold.co/300x400?text=Black+Clover" alt="Black Clover">
+            <p>Un garçon sans magie rêve de devenir Empereur-Mage.</p>
+            <button onclick="afficherInfo('Black Clover')">
+                En savoir plus
+            </button>
+        </div>
+
+        <div class="anime">
+            <h3>Hunter x Hunter</h3>
+            <img src="https://placehold.co/300x400?text=Hunter+x+Hunter" alt="Hunter x Hunter">
+            <p>Gon part à l'aventure pour devenir Hunter.</p>
+            <button onclick="afficherInfo('Hunter x Hunter')">
+                En savoir plus
+            </button>
+        </div>
+
+    </main>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Bienvenue sur Anime World !</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Anime World - Tous droits réservés</p>
+        <p>Créé avec passion pour les fans d'animés</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
