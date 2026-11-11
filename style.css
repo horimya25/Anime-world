@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #100b1c;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1d1230;
+    padding: 35px;
+    text-align: center;
+}
+
+h1 {
+    color: #bd83ff;
+    font-size: 45px;
+    margin: 0;
+}
+
+header p {
+    color: white;
+    font-size: 18px;
+}
+
+main {
+    padding: 25px;
+}
+
+h2 {
+    color: #bd83ff;
+    margin-bottom: 25px;
+}
+
+main p {
+    background-color: #26183b;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}h3 {
+    color: #bd83ff;
+    font-size: 22px;
+}
+.anime {
+    background-color: #26183b;
+    border: 1px solid #7042a3;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.anime:hover {
+    transform: scale(1.02);
+}.anime img {
+    width: 180px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}button {
+    background-color: #bd83ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #914bd6;
+}
+#recherche {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 20px auto;
+    border: 2px solid #bd83ff;
+    border-radius: 10px;
+    background-color: #26183b;
+    color: white;
+    font-size: 16px;
+}
+nav {
+    background-color: #26183b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #bd83ff;
+}
+footer {
+    background-color: #1d1230;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        margin: 0 6px;
+        font-size: 14px;
+    }
+
+    .anime {
+        padding: 15px;
+    }
+}
